@@ -1,16 +1,26 @@
-# React + Vite
+# ToyTopia – Local Kids Toy Store Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Purpose
+A vibrant and playful online marketplace for kids' toys, encouraging families to discover and support local toy sellers. Users can browse toys, view details, and contact sellers securely.
 
-Currently, two official plugins are available:
+## Live URL
+https://guileless-twilight-c168e0.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- Responsive UI with React & Tailwind CSS
+- User authentication with Firebase (Email & Google Sign-in)
+- Password reset functionality
+- Protected routes for user profile and toy details
+- Toy details page with seller info and ratings
+- Popular toys display using JSON data
+- Slider for featured toys
+- Interactive forms (Try Now / Contact Seller)
+- Toast notifications for actions
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## NPM Packages Used
+- `react-router-dom` – Routing
+- `firebase` – Authentication & Backend
+- `react-icons` – Icons
+- `react-toastify` – Notifications
+- `daisyui` – UI Components
+- `swiper` – Slider 
